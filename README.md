@@ -49,11 +49,11 @@
    ![alt text](https://github.com/padibona/FinTechProject1/blob/main/Images/Cryptoheatmap.png) 
    * Here is a different way to look at the correlation values:
    ![alt text](https://github.com/padibona/FinTechProject1/blob/main/Images/Correlation%20barplot.png) 
-1. Alt coin prices were highly correlated with Bitcoin (BTC) price, which we had assumed was the case.
-2. ETH and LTC were the two alt coins that correlated the closest to BTC price.
-3. Of the 6 portfolios we analyzed, Portfolio 2 outperformed all other portfolios.
-4. The worst performing portfolio was Portfolio 6 which consisted of S&P 500 Stocks. 
+   
+---
 
-
-
-
+**Which portfolio performed the best over the past 2 years?** 
+   * In order to determine this we took the .cumprod() of daily returns.
+   * As you can see Portfolio 2 performed the best at about a 529% gain, over 2 Years! This is likely due the higher weighting of ETH as that was #2 in the overall cumulative gains. 
+   * Portfolio 6 clearly was the laggard of the pack, at about 46% gains, which was the S&P 500. 
+   ![alt text](https://github.com/padibona/FinTechProject1/blob/main/Images/Portfoliocomparison.png) 
