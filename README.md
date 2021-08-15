@@ -34,11 +34,21 @@
   * We chose Coinbase due to the name recognition and probably the oldest data set in the United States.
   * We also wanted to use a platform that has a readily available and quick to learn API. While this API may not be ideal, the documentation was clear enough, and got the job done.
 
+---
+
 **Which alt coins performed best on a daily and cumulative basis?**
-  * As seen from the plot below Chainlink (LINK) outperformed all crypto alt coins we analyzed. A close second was Ether (ETH)
+  * As seen from the plot below, Chainlink (LINK) outperformed all crypto alt coins we analyzed. A close second was Ether (ETH). Warning!! You may need to Alter your GitHub Appearance Settings to Default light to see the text for these images.
   ![alt text](https://github.com/padibona/FinTechProject1/blob/main/Images/Cryptocumulative.png)
-  * We also created this pie chart to show the overall performance in % gains:
+  * As it is not super clear which line was which alt coin on the above line plot, we decided to make a visualization that made it more clear which one was the leader.This pie chart shows the overall performance in % gains over the past 2 years: 
   ![alt text](https://github.com/padibona/FinTechProject1/blob/main/Images/Cryptopie.png)
+
+---
+
+**Which alt coin prices are most closely correlated to Bitcoin price?**
+   * Unsurprisingly, all of the Alt Coins were fairly correlated to Bitcoin. As you can see here, most alt coins had a fairly strong .50-.80 positive correlation, with the exception of REPUSD, which only had a .40 positive correlation.
+   ![alt text](https://github.com/padibona/FinTechProject1/blob/main/Images/Cryptoheatmap.png) 
+   * Here is a different way to look at the correlation values:
+   ![alt text](https://github.com/padibona/FinTechProject1/blob/main/Images/Correlation%20barplot.png) 
 1. Alt coin prices were highly correlated with Bitcoin (BTC) price, which we had assumed was the case.
 2. ETH and LTC were the two alt coins that correlated the closest to BTC price.
 3. Of the 6 portfolios we analyzed, Portfolio 2 outperformed all other portfolios.
